@@ -1,5 +1,6 @@
 import express  from 'express';
+import {PORT} from './confin.js'
 
 const app = express();
-app.listen(3000)
-console.log(`Server is the port 3000`)
+app.listen(PORT)
+console.log(`Server is the port ${PORT}`)
